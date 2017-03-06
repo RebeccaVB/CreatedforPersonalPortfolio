@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="portfolio.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +24,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<!--<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>-->
 </head>
 
 <body>
@@ -56,6 +57,26 @@
         </div>
         <!-- /.container -->
     </nav>
+    <!--header-->
+    <div class="header-container">
+    <div class="video-container">
+    <video preload="true" autoplay="autoplay" loop="loop" volume="0" poster="Capture.PNG">
+       <source src="Galactic_Spiral_4K_Motion_Background_Loop.mp4" type="video/mp4"> 
+       <source src="Galactic_Spiral_4K_Motion_Background_Loop.webm" type="video/webm">
+       <source src="Galactic_Spiral_4K_Motion_Background_Loop.ogv" type="video/ogg">
+</video>
+</div>
+    
+<!--  <a id="bgndVideo" class="player" data-property="{videoURL:'Galactic_Spiral_4K_Motion_Background_Loop.mp4',containment:'.body', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+    
+      <div class="row">
+        <div class="col-lg-12">
+       
+       </div>
+      </div>
+    </div>
+  </div>
+</section>-->
 
     <!-- Page Content -->
     <div class="container">
@@ -63,29 +84,28 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Rebecca Bernstiel
-                </h1>
+                <h1 class="page-header">Rebecca Bernstiel</h1>
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
+        <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type='text/css'>
+
+
+<!--Video Section-->
+
+<!--Video Section Ends Here-->
         <div class="row">
 
             <div class="col-md-8">
-                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                <img class="img-responsive" src="IMG_1746.JPG" alt="">
             </div>
 
             <div class="col-md-4">
                 <h3>Student Developer</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
             </div>
 
         </div>
@@ -99,33 +119,45 @@
             </div>
 
             <div class="col-sm-3 col-xs-6">
+              <h3>
+                    <a href="#">Rebecca's Magic 8 Ball</a>
+                </h2>
+                <p class="lead">
+                    by <a href="index.php">Rebecca Bernstiel</a>
+                </p>
+                <p>Posted on March 2, 2017</p>
+                <hr>
+                 <img class="img-responsive portfolio-item" src="8Ball.PNG" alt="">
+                <hr>
+                <p>This was just a simple page to practice using Java Script to animate the random shaking of the Magic 8 Ball image after you click on it and generate a random answer.  While it is shaking the image, it displays a message.</p>
+                <a class="buttons" href="https://github.com/RebeccaVB/magic8ball">Magic 8 Ball<span ></span></a>
+                <hr>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <h4><a href="#">HTML Image responsive</a></h4>
+                   <hr>
+                    <img class="img-responsive portfolio-item" src="Responsive.PNG" alt="">
+                </hr>
+                <p> This is a basic example of an HTML that is image responsive. It contains a navigation bar and buttons used through out the page that can be linked to different pages to provide futher informations.</p>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
                 <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <img class="img-responsive portfolio-item" src="CaptureVideoStoreApp.PNG" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
                 <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <img class="img-responsive portfolio-item" src="VP.PNG" alt="">
                 </a>
             </div>
 
         </div>
         <!-- /.row -->
 
-        <hr>
+        <div id="githubInfo"></div>
 
         <!-- Footer -->
         <footer>
@@ -138,13 +170,14 @@
         </footer>
 
     </div>
+    </div>
     <!-- /.container -->
-
     <!-- jQuery -->
     <script src="jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="bootstrap.min.js"></script>
+    <script src="portfolio.js"></script>
 
 </body>
 
