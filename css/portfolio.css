@@ -57,7 +57,9 @@ video {
     cursor: pointer;
     border-radius: 4px;
 }
-
+.card-deck{
+	display: flex;
+}
 .card {
 	font-family: 'Cormorant SC', serif;
 
