@@ -62,6 +62,7 @@ video {
 }
 .card {
 	font-family: 'Cormorant SC', serif;
+
 }
 
 footer {
