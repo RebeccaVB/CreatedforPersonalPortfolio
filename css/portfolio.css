@@ -7,7 +7,6 @@
 body {
     padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Cormorant SC', serif;
-
 }
 body html {
 	height: 100%;
@@ -16,9 +15,6 @@ body html {
 
 .page-header {
 	font-family: 'Cormorant SC', serif;
-}
-.portfolio-item {
-    margin-bottom: 5px;
 }
 .header-container {
 	width: 100%;
@@ -57,13 +53,10 @@ video {
     cursor: pointer;
     border-radius: 4px;
 }
-.card-deck{
-	display: flex;
-}
 .card {
 	font-family: 'Cormorant SC', serif;
 }
 
 footer {
     margin: 50px ;
-
+}
