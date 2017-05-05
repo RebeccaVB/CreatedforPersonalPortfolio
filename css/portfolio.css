@@ -12,6 +12,9 @@ body html {
 	height: 100%;
 	margin: auto;
 }
+.navbar .navbar-inverse .navbar-fixed-top{
+	background-color: #212c3d;
+}
 .nav .navbar-nav {
 	background-color: #212c3d;
 	font-family: 'Cormorant SC', serif;
