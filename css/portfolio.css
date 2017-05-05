@@ -12,7 +12,7 @@ body html {
 	height: 100%;
 	margin: auto;
 }
-.navbar .navbar-inverse .navbar-fixed-top{
+nav {
 	background-color: #212c3d !important;
 }
 .nav .navbar-nav {
