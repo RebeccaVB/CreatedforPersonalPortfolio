@@ -16,6 +16,9 @@ body html {
 	background-color: #212c3d !important;
 	background: cover;
 }
+li {
+	display: inline;
+	}
 .nav .navbar-nav {
 	background-color: #212c3d;
 	font-family: 'Cormorant SC', serif;
