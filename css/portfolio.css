@@ -16,8 +16,8 @@ body html {
 	background-color: #212c3d !important;
 	background: cover;
 }
-li {
-	display: inline;
+li ul {
+	display: inline !important;
 	}
 .nav .navbar-nav {
 	background-color: #212c3d;
