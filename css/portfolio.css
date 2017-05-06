@@ -12,18 +12,20 @@ body html {
 	height: 100%;
 	margin: auto;
 }
-.navbar {
+.navbar .container-fluid>.navbar-header {
 	background-color: #212c3d !important;
 	background: cover;
+	float: left;
+	margin-right: 10px;
 }
-li ul {
-	display: inline !important;
+.nav>li{
+	float: left;
 	}
 .nav .navbar-nav {
 	background-color: #212c3d;
 	font-family: 'Cormorant SC', serif;
 	color: #ededed;
-	display: inline;
+	float: left;
 }
 .navbar-brand{
 	font-size: 30px;
@@ -55,6 +57,9 @@ video {
 	min-height: 100%;
 	width: auto;
 	height: auto;
+}
+.row {
+	position: relative;
 }
 .button {
 	background-color: #008B8B;
