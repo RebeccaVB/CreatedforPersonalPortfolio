@@ -11,6 +11,7 @@ body {
 body html {
 	height: 100%;
 	margin: auto;
+	-webkit-backface-visibility: hidden;
 }
 .navbar .container-fluid>.navbar-header {
 	background-color: #212c3d !important;

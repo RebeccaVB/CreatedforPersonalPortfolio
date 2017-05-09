@@ -58,8 +58,9 @@ video {
 	width: auto;
 	height: auto;
 }
-.row {
+.row> p {
 	position: relative;
+	margin-right: 30px;
 }
 .button {
 	background-color: #008B8B;
