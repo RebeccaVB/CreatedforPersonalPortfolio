@@ -6,12 +6,15 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta content="" name="description">
 	<meta content="Rebecca Vazquez" name="author">
-	<title>Portfolio Item - Start Bootstrap Template</title><!-- Bootstrap Core CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://use.fontawesome.com/9e527a0247.js"></script>
+  <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
-	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+ 
 	<link href="/css/portfolio.css" rel="stylesheet"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -22,52 +25,61 @@
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet" type='text/css'>
 </head>
 <body>
-	<!-- Navigation -->
-<!-- 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Rebecca Bernstiel</a>
-				<div style="display: inline-block;">
-					<ul class="nav navbar-nav">
-						<li>
-							<a href="#">About</a>
-						</li>
-						<li>
-							<a href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div><!-- /.container -->
-		<!-- </div>
-	</nav> --> -->
+
 	
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">About</a>
-        <a class="mdl-navigation__link" href="">Contact</a>
-      </nav>
-    </div>
-  </header>
-  <main class="mdl-layout__content">
-  </main>
+  <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong>Rebecca Bernstiel</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+
+                    </li>
+                </ul>
+                <form class="form-inline waves-effect waves-light">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+        </div>
     </nav>
-  </div>
-  <main class="mdl-layout__content">
-  </main>	
+    <!--/.Navbar-->
+	 <!--Mask-->
+    <div class="view hm-black-strong">
+        <div class="full-bg-img flex-center">
+            <ul>
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown" data-wow-delay="0.2s">Junior Developer</h1></li>
+                <li>
+                    <p class="wow fadeInDown">Java, JavaScript, jQuery, HTML5, CSS3, Bootstrap, MVC, Object Oriented, Responsive Design / Mobile, SQL, MSSQL, and Source Control / Git and collaborating with cross-functional teams.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/.Mask-->
 	<!--header-->
+	
 	<!--Video Section-->
+  
+
 	<div class="header-container">
 		<div class="video-container">
 			<video autoplay="autoplay" loop="loop" poster="/images/Capture.PNG" preload="true"><source src="/images/Galactic_Spiral_4K_Motion_Background_Loop.mp4" type="video/mp4"> <source src="/images/Galactic_Spiral_4K_Motion_Background_Loop.webm" type="video/webm"> <source src="/images/Galactic_Spiral_4K_Motion_Background_Loop.ogv" type="video/ogg"></video>
 		</div>
-	</div> <!-- /.row -->
+	</div> 
+	<!-- /.row -->
 	 <!-- Portfolio Item Row -->
 	<div class="row">
 		<div class="col-md-6"><img alt="" class="img-responsive" src="/images/beccafam.png"></div>
@@ -75,9 +87,12 @@
 			<h3>Junior Developer</h3>
 			<p>Recent software engineering boot camp graduate, receiving expert-led instruction and hands-on practice with Java, JavaScript, jQuery, HTML5, CSS3, Bootstrap, MVC, Object Oriented, Responsive Design / Mobile, SQL, MSSQL, and Source Control / Git. Prior to embarking on a career change, delivered quality clinical care to diverse patients—pediatrics and geriatrics—demonstrating an unwavering attention to the needs of others, efficiently and thoroughly documenting requirements, recognizing variances from expected outcomes, providing in-depth education to novice stakeholders, and collaborating with cross-functional teams.</p>
 		</div>
-	</div><!-- /.row -->
+	</div>
+	<!-- /.row -->
+	
+	
 	<!-- Related Projects Row -->
-	<div class="text-header">
+	<!-- <div class="text-header">
 		<h3 class="page-header">Related Projects</h3>
 	</div>
 	<div class="row active-with-click">
@@ -103,8 +118,8 @@
 						</div>
 					</div><a class="mc-btn-action"><i class="fa fa-bars"></i></a>
 				</article>
-			</div>
-			<div class="row active-with-click">
+			</div> -->
+		<!-- 	<div class="row active-with-click">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<article class="material-card Blue-Grey">
 						<h2><span>Java Video Store</span></h2>
@@ -115,49 +130,123 @@
 							</div>
 						</div><a class="mc-btn-action"><i class="fa fa-bars"></i></a>
 					</article>
-				</div><!-- <div class="row">
-            <!== <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="card">
-                        <img alt="Card image cap" class="card-img-top" src="/images/8Ball.PNG">
+				</div>   <div class="row"> -->
 
+                <!--First columnn-->
+                <div class="col-lg-3">
+                    <!--Card-->
+                    <div class="card wow fadeIn">
 
-                    <div class="card-block">
-                    <h4 class="card-title">Rebecca's l</h4>
-                        <p class="card-text">This was just a simple page to practice using Java Script to animate the random shaking of the Magic 8 Ball image after you click on it and generate a random answer. While it is shaking the image, it displays a message.
-                        <a class="button" href="https://github.com/RebeccaVB/magic8ball"><span class="glyphicon glyphicon-menu-right"></span>See More..</a>
-                    </div>
-                </div>
-            </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="card"> 
-                <img alt="Card image cap" class="card-img-top" src="/images/Responsive.png">
-    
-                    <div class="card-block">
-                    <h4 class="card-title">Tuscany Villa</h4>
-                        <p class="card-text">
-                        This is a basic example of an HTML that is image responsive. It contains a navigation bar and buttons used through out the page that can be linked to different pages to provide futher informations.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="card">
-                    <img alt="Card image cap" class="card-img-top" src="/images/CaptureVideoStoreApp.PNG">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="/images/8Ball.PNG" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
 
-                    <div class="card-block">
-                    <h4 class="card-title">Java Video Store</h4>
-                        <p class="card-text">
-                        Written in Java, a program that calculated fees for different classes of move. It use Inheritance and polymorphism to make it cleaner code and much more efficient.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                        <a class="button" href="https://github.com/RebeccaVB/java-video-store"><span class="glyphicon glyphicon-menu-right"></span>See More...</a>
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <h4 class="card-title">Magic 8 Ball</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">This was just a simple page to practice using Java Script to animate the random shaking of the Magic 8 Ball image after you click on it and generate a random answer.</p>
+                        </div>
+                        <!--/.Card content-->
+
                     </div>
+                    <!--/.Card-->
                 </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="card"> -->--&gt; <!-- /.row -->
+                <!--First columnn-->
+
+                <!--Second columnn-->
+                <div class="col-lg-3">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="/images/Responsive.png" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <h4 class="card-title">Tuscany Villa</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">This is a basic example of an HTML that is image responsive. It contains a navigation bar and buttons used through out the page that can be linked to different pages to provide further informations.</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Second columnn-->
+
+                <!--Third columnn-->
+                <div class="col-lg-3">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.4s">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="" class="img-fluid" alt="/images/CaptureVideoStoreApp.PNG">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <h4 class="card-title">Java Video Store</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">Written in Java, a program that calculated fees for different classes of move. It use Inheritance and polymorphism to make it cleaner code and much more efficient.</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+
+                <!--First columnn-->
+                <div class="col-lg-3">
+                    <!--Card-->
+                    <div class="card wow fadeIn" data-wow-delay="0.6s">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="/images/scrnsht.xcf" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-center">
+                            <!--Title-->
+                            <h4 class="card-title">Obscure Travel</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">A user-driven Java SpringMVC project for obscure locations, with categories such as 'people watching' with persistence database and used Googlemaps API </p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
 				<div class="repo-list" style="text-align: center;"></div><!-- Footer -->
 				<footer>
 					<div class="row">
@@ -166,16 +255,17 @@
 						</div>
 					</div>
 				</footer>
-			</div><!-- jQuery -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-			</script> <!-- Bootstrap Core JavaScript -->
-			 
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js">
-			</script> 
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-			</script> 
-			<script defer src="https://code.getmdl.io/1.3.0/material.min.js">
-			</script> 
+		  <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
 
 			<script src="/js/portfolio.js">
 			</script> 
