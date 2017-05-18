@@ -8,9 +8,9 @@ $(document).ready(function(){
             console.log(repo.name, repo.html_url, repo.updated_at, repo.subscriptions_url);
             $(".repo-list")
             .append("<li><a href=" + repo.html_url + ">" + repo.name + "<p>last update:" + repo.updated_at +"</p>" + "</a></li>");
-           
+
                     };
     });
     });
- 
- new WOW().init();
+
+ $.WOW().init();
