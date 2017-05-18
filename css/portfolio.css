@@ -4,73 +4,89 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-	body {
-		padding-top: 60px !important;
-		/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-		font-family: 'Cormorant SC', serif;
-	}
-	body html {
-		height: 100%;
-		margin: auto;
-		font-family: 'Cormorant SC', serif;
-	}
-	.view {
-		height: 100%;
-	}
-	/* Navigation*/
-
-	.navbar {
-		background-color: transparent;
-	}
-	.scrolling-navbar {
-		-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
-		-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
-		transition: background .5s ease-in-out, padding .5s ease-in-out;
-	}
-	.top-nav-collapse {
-		background-color: #3c4f74;
-	}
-	footer.page-footer {
-		background-color: #3c4f74;
-		margin-top: 2rem;
-	}
-	@media only screen and (max-width: 768px) {
-		.navbar {
-			background-color: #1C2331;
+		body {
+		  padding-top: 60px !important;
+		  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+		  font-family: 'Cormorant SC', serif;
 		}
-	}
-	.view {
-		z-index: 50;
-	}
-	.video-container {
-		position: absolute;
-		top: 0%;
-		left: 0%;
-		height: 100%;
-		width: 100%;
-		overflow: hidden;
-	}
-	video {
-		position: absolute;
-		z-index: -1;
-		opacity: 0.78;
-		min-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
-	}
-	.row{
-		display: inline-flex;
-	}
-	.col-lg-3{
-		max-width: 25%;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
-	div{
-		display: inline-grid !important;
-	}
+
+		body html {
+		  height: 100%;
+		  margin: auto;
+		  font-family: 'Cormorant SC', serif;
+		}
+
+		.view {
+		  height: 100%;
+		}
+		/* Navigation*/
+
+		.navbar {
+		  background-color: transparent;
+		}
+
+		.scrolling-navbar {
+		  -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		  -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+		  transition: background .5s ease-in-out, padding .5s ease-in-out;
+		}
+
+		.top-nav-collapse {
+		  background-color: #3c4f74;
+		}
+
+		footer.page-footer {
+		  background-color: #3c4f74;
+		  margin-top: 2rem;
+		}
+
+		@media only screen and (max-width: 768px) {
+		  .navbar {
+		    background-color: #1C2331;
+		  }
+		}
+
+		.view {
+		  z-index: 50;
+		}
+
+		.video-container {
+		  position: absolute;
+		  top: 0%;
+		  left: 0%;
+		  height: 100%;
+		  width: 100%;
+		  overflow: hidden;
+		}
+
+		video {
+		  position: absolute;
+		  z-index: -1;
+		  opacity: 0.78;
+		  min-width: 100%;
+		  min-height: 100%;
+		  width: auto;
+		  height: auto;
+		}
+
+		.row {
+		  display: inline-flex;
+		}
+
+		.col-lg-3 {
+		  max-width: 25%;
+		  padding-left: 0 !important;
+		  padding-right: 0 !important;
+		}
+
+		div {
+		  display: inline-grid !important;
+		}
+
+		.divider-new {
+		  display: inline;
+		}
 
 		footer {
-			margin: 50px;
+		  margin: 50px;
 		}
