@@ -77,6 +77,10 @@
 		  max-width: 25%;
 		  padding-left: 0 !important;
 		  padding-right: 0 !important;
+			float: left;
+		}
+		.col-lg-6{
+			float: left;
 		}
 
 		div {
@@ -85,6 +89,7 @@
 
 		.divider-new {
 		  display: inline;
+			width: 100%;
 		}
 
 		footer {
